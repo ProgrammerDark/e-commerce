@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Checkout | NATIVE THREADS</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="navbar" aria-label="Main navigation">
+				<a class="logo" href="../index.html">NATIVE THREADS</a>
+				<ul class="nav-links">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="cart.html">Cart</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="section narrow-section">
+			<header class="page-heading">
+				<p class="eyebrow">One last step</p>
+				<h1>Checkout</h1>
+			</header>
+			<div class="checkout-layout">
+				<form class="checkout-form" action="checkout.html" method="get">
+					<fieldset>
+						<legend>Contact information</legend>
+						<div class="form-field">
+							<label for="email">Email address</label>
+							<input id="email" name="email" type="email" autocomplete="email" required />
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Shipping address</legend>
+						<div class="form-field">
+							<label for="name">Full name</label>
+							<input id="name" name="name" type="text" autocomplete="name" required />
+						</div>
+						<div class="form-field">
+							<label for="address">Street address</label>
+							<input id="address" name="address" type="text" autocomplete="street-address" required />
+						</div>
+						<div class="form-row">
+							<div class="form-field">
+								<label for="city">City</label>
+								<input id="city" name="city" type="text" autocomplete="address-level2" required />
+							</div>
+							<div class="form-field">
+								<label for="postal-code">Postal code</label>
+								<input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" required />
+							</div>
+						</div>
+					</fieldset>
+					<button class="button button-full" type="submit">Place order</button>
+				</form>
+				<aside class="order-summary">
+					<h2>Order summary</h2>
+					<p>Everyday Linen Shirt <span>$48.00</span></p>
+					<p>Shipping <span>$5.00</span></p>
+					<p class="summary-total"><strong>Total</strong><strong>$53.00</strong></p>
+					<a class="text-link" href="cart.html">Return to cart</a>
+				</aside>
+			</div>
+		</main>
+
+		<footer class="site-footer">
+			<p>&copy; 2026 NATIVE THREADS. Made for everyday.</p>
+		</footer>
+	</body>
+</html>
